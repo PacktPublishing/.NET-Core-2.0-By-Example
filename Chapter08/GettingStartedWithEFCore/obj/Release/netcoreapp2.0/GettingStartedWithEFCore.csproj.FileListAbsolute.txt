@@ -1,0 +1,11 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\bin\Release\netcoreapp2.0\GettingStartedWithEFCore.deps.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\bin\Release\netcoreapp2.0\GettingStartedWithEFCore.runtimeconfig.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\bin\Release\netcoreapp2.0\GettingStartedWithEFCore.runtimeconfig.dev.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\bin\Release\netcoreapp2.0\GettingStartedWithEFCore.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.AssemblyInfoInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.AssemblyInfo.cs
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\bin\Release\netcoreapp2.0\GettingStartedWithEFCore.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\GettingStartedWithEFCore\obj\Release\netcoreapp2.0\GettingStartedWithEFCore.pdb

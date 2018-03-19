@@ -1,0 +1,7 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\ConsoleApp3.exe.config
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\ConsoleApp3.exe
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\ConsoleApp3.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\ConsoleApp3.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\ConsoleApp3.exe
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\ConsoleApp3.pdb

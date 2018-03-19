@@ -1,0 +1,20 @@
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.exe.config
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.XML
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.exe
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.pdb
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharp.Core.dll
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\System.ValueTuple.dll
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharp.Core.xml
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.exe
+c:\users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.pdb
+C:\Users\neshriv\documents\visual studio 2017\Projects\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.fsproj.CoreCompileInputs.cache
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.exe.config
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.XML
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.exe
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharpConsoleApplication.pdb
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharp.Core.dll
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\System.ValueTuple.dll
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\bin\Debug\FSharp.Core.xml
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.fsproj.CoreCompileInputs.cache
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.exe
+D:\Chapter1\Book_Projects\VS2017\FSharpConsoleApplication\FSharpConsoleApplication\obj\Debug\FSharpConsoleApplication.pdb

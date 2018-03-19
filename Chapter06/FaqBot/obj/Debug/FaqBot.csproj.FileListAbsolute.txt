@@ -1,0 +1,41 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Bot Application.dll.config
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Bot Application.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Bot Application.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Autofac.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Chronic.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Newtonsoft.Json.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Net.Http.Formatting.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Web.Http.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Web.Http.WebHost.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Autofac.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\Newtonsoft.Json.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Net.Http.Formatting.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Web.Http.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\System.Web.Http.WebHost.xml
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\obj\Debug\FaqBot.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\obj\Debug\FaqBot.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\obj\Debug\Bot Application.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\FaqBot\obj\Debug\Bot Application.pdb

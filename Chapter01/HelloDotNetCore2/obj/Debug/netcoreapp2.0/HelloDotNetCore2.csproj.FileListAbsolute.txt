@@ -1,0 +1,11 @@
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\bin\Debug\netcoreapp2.0\HelloDotNetCore2.deps.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\bin\Debug\netcoreapp2.0\HelloDotNetCore2.runtimeconfig.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\bin\Debug\netcoreapp2.0\HelloDotNetCore2.runtimeconfig.dev.json
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\bin\Debug\netcoreapp2.0\HelloDotNetCore2.dll
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\bin\Debug\netcoreapp2.0\HelloDotNetCore2.pdb
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.csprojResolveAssemblyReference.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.csproj.CoreCompileInputs.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.AssemblyInfoInputs.cache
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.AssemblyInfo.cs
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.dll
+c:\users\rishabhv\documents\visual studio 2017\Projects\HelloDotNetCore2\HelloDotNetCore2\obj\Debug\netcoreapp2.0\HelloDotNetCore2.pdb

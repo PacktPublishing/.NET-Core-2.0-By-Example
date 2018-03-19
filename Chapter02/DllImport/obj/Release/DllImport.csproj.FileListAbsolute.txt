@@ -1,0 +1,6 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\DllImport.exe.config
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\DllImport.exe
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\bin\Release\DllImport.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\DllImport.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\DllImport.exe
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\DllImport\obj\Release\DllImport.pdb

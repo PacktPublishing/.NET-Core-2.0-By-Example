@@ -1,0 +1,14 @@
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\neshriv\Documents\Visual Studio 2017\Projects\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\Chapter1\Book_Projects\VS2017\ConsoleApp3\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

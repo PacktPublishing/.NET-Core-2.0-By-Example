@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "Let's Chat";
+    ViewData["UserName"] = "Guest";
+    if(User.Identity.IsAuthenticated)
+    {
+        ViewData["UserName"] = User.Identity.Name;
+    }
+}
+<h1>
+  Hello @ViewData["UserName"]! Welcome to chat room - "Let's Chat"
+</h1>
+<br />
+
+<!-- Template start-->
+<div class="main_section">
+    <div class="container">
+        <div class="chat_container">
+            <div class="col-sm-3 chat_sidebar">
+                <div class="row">
+                    <div class="dropdown" style="text-align:center">
+                        <strong>
+                            Online Users
+                        </strong>
+                    </div>
+                    <div class="member_list">
+                        <ul class="list-unstyled" id="onlineUsers">
+                            @*<li class="left clearfix">
+                                    <div class="chat-body clearfix">
+                                        <div class="header_sec">
+                                            <strong class="primary-font">Rishabh Verma</strong>
+                                        </div>
+                                    </div>
+                                </li>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--chat_sidebar-->
+            <div class="col-sm-9 message_section">
+                <div class="row">
+                    <div class="new_message_head">
+                    </div>
+                    <!--new_message_head-->
+
+                    <div class="chat_area">
+                        <ul class="list-unstyled" id="chatArea">
+                            @*<li class="left clearfix">
+                                    <span class="chat-img1 pull-left">
+                                        <img src="<<Image Url>>" alt="User Avatar" class="img-circle">
+                                    </span>
+                                    <div class="chat-body1 clearfix">
+                                        <p> Image Here</p>
+                                        <div class="chat_time pull-right"><<Date Time here>></div>
+                                    </div>
+                                </li>*@
+                        </ul>
+                    </div>
+                    <div class="message_write">
+                        <textarea class="form-control" id="txtMessage" placeholder="Type your message..."></textarea>
+                        <div class="clearfix"></div>
+                        <div class="chat_bottom"> <a id="sendChat" href="#" class="pull-right btn btn-success">Send</a></div>
+                    </div>
+                </div>
+            </div> <!--message_section-->
+        </div>
+    </div>
+</div>
+<!-- Template End-->
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<link href="~/css/site.css" rel="stylesheet" />
+<script src="~/js/signalr-client-1.0.0-alpha1-final.js"></script>
+<script src="~/js/signalr-clientES5-1.0.0-alpha1-final.js"></script>
+<script src="~/js/signalr-msgpackprotocol-1.0.0-alpha1-final.js"></script>
+<script type="text/javascript">
+    let hubUrl = '/chatHub';
+    let httpConnection = new signalR.HttpConnection(hubUrl);
+    let hubConnection = new signalR.HubConnection(httpConnection);
+
+    hubConnection.on('SetUsersOnline', usersOnline => {
+        if (usersOnline.length > 0) {
+            $('#onlineUsers').innerText = '';
+            $.each(usersOnline, function (i, user) {
+                addUserOnline(user);
+            });
+        }
+    });
+
+    hubConnection.on('UsersJoined', users => {
+        if (users != null && typeof (users) != undefined) {
+            appendLine(users.name + ' joined the chat room', 'green');
+            addUserOnline(user);
+        }
+    });
+
+    hubConnection.on('UsersLeft', users => {
+        if (users != null && typeof (users) != undefined) {
+            appendLine(users.name + ' left the chat room', 'red');
+            document.getElementById(users.connectionId).outerHTML = '';
+        }
+    });
+
+    hubConnection.on('Send', (userName, message, image) => {
+        ////<li class="left clearfix">
+        ////    <span class="chat-img1 pull-left">
+        ////        <img src="https://lh6.googleusercontent.com/-y-MY2satK-E/AAAAAAAAAAI/AAAAAAAAAJU/ER_hFddBheQ/photo.jpg" alt="User Avatar" class="img-circle">
+        ////                        </span>
+        ////        <div class="chat-body1 clearfix">
+        ////            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+        ////            <div class="chat_time pull-right">09:40PM</div>
+        ////        </div>
+        ////                    </li>
+
+        var listItem = document.createElement('li');
+        listItem.className = "left clearfix";
+
+        var spanElement = document.createElement('span');
+        spanElement.className = "chat-img1 pull-left";
+
+        var imageElement = document.createElement('img');
+        imageElement.alt = userName;
+        imageElement.title = userName;
+        imageElement.className = "img-circle";
+        imageElement.src = image;
+
+        spanElement.appendChild(imageElement);
+
+        var divBody = document.createElement('div');
+        divBody.className = "chat-body1 clearfix";
+        divBody.title = userName;
+
+        var para = document.createElement('p');
+        para.innerText = message;
+
+        var divTime = document.createElement('div');
+        divTime.className = "chat_time pull-right";
+
+        var date = new Date();
+        var n = date.toDateString();
+        var time = date.toLocaleTimeString();
+
+        divTime.innerText = n + " " + time;
+
+        divBody.appendChild(para);
+        divBody.appendChild(divTime);
+
+        listItem.appendChild(spanElement);
+        listItem.appendChild(divBody);
+
+        document.getElementById('chatArea').appendChild(listItem);
+    });
+
+    hubConnection.start();
+
+    $("#sendMessage").click(function () {
+        sendMessage();
+    });
+
+    function sendMessage() {
+        let chatData = $('#txtMessage').val();
+        if (chatData != null && chatData.length > 0) {
+            hubConnection.invoke('Send', chatData);
+            event.preventDefault();
+            $('#txtMessage').val("");
+        }
+    }
+
+    $("#txtMessage").keyup(function (e) {
+        if (e.keyCode == 13) {
+            sendMessage();
+        }
+    });
+
+    function appendLine(line, color) {
+
+        var listItem = document.createElement('li');
+        listItem.className = "left clearfix";
+
+        var divBody = document.createElement('div');
+        divBody.className = "chat-body1 clearfix";
+
+        var para = document.createElement('p');
+        para.innerText = line;
+        divBody.appendChild(para);
+        listItem.appendChild(divBody);
+        if (color) {
+            listItem.style.color = color;
+        }
+        document.getElementById('chatArea').appendChild(listItem);
+    };
+
+    function addUserOnline(user) {
+        if (document.getElementById(user.connectionId)) {
+            return;
+        }
+
+        var userLi = document.createElement('li');
+        userLi.id = user.connectionId;
+
+        userLi.className = "left clearfix";
+
+        var divBody = document.createElement('div');
+        divBody.className = "chat-body clearfix";
+
+        var divHeader = document.createElement('div');
+        divHeader.className = "header_sec";
+
+        var strong = document.createElement('strong');
+        strong.className = "primary-font";
+
+        strong.innerText = `${user.name}`;
+
+        divHeader.appendChild(strong);
+
+        divBody.appendChild(divHeader);
+
+        userLi.appendChild(divBody);
+
+        document.getElementById('onlineUsers').appendChild(userLi);
+    }
+</script>

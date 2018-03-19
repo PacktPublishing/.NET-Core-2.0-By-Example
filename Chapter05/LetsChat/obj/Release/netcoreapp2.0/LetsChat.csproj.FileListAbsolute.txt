@@ -1,0 +1,11 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\bin\Release\netcoreapp2.0\LetsChat.deps.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\bin\Release\netcoreapp2.0\LetsChat.runtimeconfig.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\bin\Release\netcoreapp2.0\LetsChat.runtimeconfig.dev.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\bin\Release\netcoreapp2.0\LetsChat.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\bin\Release\netcoreapp2.0\LetsChat.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.AssemblyInfoInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.AssemblyInfo.cs
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\LetsChat\obj\Release\netcoreapp2.0\LetsChat.pdb

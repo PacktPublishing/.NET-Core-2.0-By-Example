@@ -1,0 +1,11 @@
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\bin\Release\netcoreapp2.0\TicTacToeGame.deps.json
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\bin\Release\netcoreapp2.0\TicTacToeGame.runtimeconfig.json
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\bin\Release\netcoreapp2.0\TicTacToeGame.runtimeconfig.dev.json
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\bin\Release\netcoreapp2.0\TicTacToeGame.dll
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\bin\Release\netcoreapp2.0\TicTacToeGame.pdb
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.AssemblyInfoInputs.cache
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.AssemblyInfo.cs
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.dll
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\obj\Release\netcoreapp2.0\TicTacToeGame.pdb

@@ -1,0 +1,12 @@
+C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=TicTacToeGame
+--content-root=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Home\About.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Home\Contact.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Home\Index.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Shared\Error.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Shared\_Layout.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\_ViewImports.cshtml
+--file=C:\Users\rishabhv\documents\visual studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\TicTacToeGame\Views\_ViewStart.cshtml

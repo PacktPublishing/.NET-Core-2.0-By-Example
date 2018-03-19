@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{A1A01377-C3DF-4586-9838-10C733BECF91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToeGame", "TicTacToeGame\TicTacToeGame.csproj", "{803C201D-32DB-45A0-ADED-66F439A83006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsChat", "LetsChat\LetsChat.csproj", "{6118A87B-0514-4B9E-84F3-BA1A636272AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{37346C1F-530C-44F5-B6A8-73E92B74E2B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsChatTest", "LetsChatTest\LetsChatTest.csproj", "{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaqBot", "FaqBot\FaqBot.csproj", "{24EDAB3C-BE1A-483A-8A18-1E17ECFB61A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieBooking", "MovieBooking\MovieBooking.csproj", "{3B3D9C30-DACF-4B21-973A-61AF4256D60E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStartedWithEFCore", "GettingStartedWithEFCore\GettingStartedWithEFCore.csproj", "{2CA13285-79DF-4A42-AF92-5D13DDB119EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDotNetCore2", "HelloDotNetCore2\HelloDotNetCore2.csproj", "{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvoke", "DllImport\PInvoke.csproj", "{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ubuntu Code Samples", "Ubuntu Code Samples", "{F6EA9F37-1073-4878-AF32-D3025DB2D624}"
+	ProjectSection(SolutionItems) = preProject
+		Ubuntu Code Samples\HelloSOLib.c = Ubuntu Code Samples\HelloSOLib.c
+		Ubuntu Code Samples\InteropWithNativeSO.cs = Ubuntu Code Samples\InteropWithNativeSO.cs
+		Ubuntu Code Samples\IntroToNcurses.c = Ubuntu Code Samples\IntroToNcurses.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1A01377-C3DF-4586-9838-10C733BECF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A01377-C3DF-4586-9838-10C733BECF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A01377-C3DF-4586-9838-10C733BECF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A01377-C3DF-4586-9838-10C733BECF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803C201D-32DB-45A0-ADED-66F439A83006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803C201D-32DB-45A0-ADED-66F439A83006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803C201D-32DB-45A0-ADED-66F439A83006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803C201D-32DB-45A0-ADED-66F439A83006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6118A87B-0514-4B9E-84F3-BA1A636272AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6118A87B-0514-4B9E-84F3-BA1A636272AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6118A87B-0514-4B9E-84F3-BA1A636272AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6118A87B-0514-4B9E-84F3-BA1A636272AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24EDAB3C-BE1A-483A-8A18-1E17ECFB61A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EDAB3C-BE1A-483A-8A18-1E17ECFB61A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EDAB3C-BE1A-483A-8A18-1E17ECFB61A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EDAB3C-BE1A-483A-8A18-1E17ECFB61A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3D9C30-DACF-4B21-973A-61AF4256D60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3D9C30-DACF-4B21-973A-61AF4256D60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3D9C30-DACF-4B21-973A-61AF4256D60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3D9C30-DACF-4B21-973A-61AF4256D60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA13285-79DF-4A42-AF92-5D13DDB119EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBA03B8-9287-4A4A-AC66-367885AC3BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AACFBEF-C5EA-48AA-89B8-66EE42BDFD04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C5D6E85-84F8-41B8-954F-6BCCF2FE8346} = {37346C1F-530C-44F5-B6A8-73E92B74E2B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EB99540-33E3-4A43-8181-A7A14F515FE1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Let's Chat";
+    ViewData["UserName"] = "Guest";
+    if(User.Identity.IsAuthenticated)
+    {
+        ViewData["UserName"] = User.Identity.Name;
+    }
+}
+<h1>
+  Hello @ViewData["UserName"]! Welcome to FAQ page of Let's Chat 
+</h1>
+<br />

@@ -1,0 +1,11 @@
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\bin\Debug\netcoreapp2.0\MovieBooking.deps.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\bin\Debug\netcoreapp2.0\MovieBooking.runtimeconfig.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\bin\Debug\netcoreapp2.0\MovieBooking.runtimeconfig.dev.json
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\bin\Debug\netcoreapp2.0\MovieBooking.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\bin\Debug\netcoreapp2.0\MovieBooking.pdb
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.csprojResolveAssemblyReference.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.csproj.CoreCompileInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.AssemblyInfoInputs.cache
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.AssemblyInfo.cs
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.dll
+C:\Users\rishabhv\Documents\Visual Studio 2017\Projects\Packt.DotNetCore2ByExamples.Examples\.NET-Core-2.0-By-Example\MovieBooking\obj\Debug\netcoreapp2.0\MovieBooking.pdb

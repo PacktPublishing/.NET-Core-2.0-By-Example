@@ -1,0 +1,204 @@
+﻿@{
+    ViewData["Title"] = "Lets play Tic-Tac-Toe";
+}
+<br/>
+<hr/>
+<form class="form-horizontal">
+    <div id="divPreviewImage">
+        <fieldset>
+            <div class="form-group"> 
+                <div class="col-lg-2">
+                    <image src="" id="previewImage" style="height:100px;width:100px;border:solid 2px dotted; float:left" />
+                </div>
+                <div class="col-lg-10" id="divOpponentPlayer">
+                    <image src="" id="opponentImage" style="height:100px;width:100px;border:solid 2px dotted; float:right;" />
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div id="divRegister">
+        <fieldset>
+            <legend>Register</legend>
+            <div class="form-group">
+                <label for="name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="image" class="col-lg-2 control-label">Avatar</label>
+                <div class="col-lg-10">
+                    <input type="file" class="form-control" id="image" />
+                </div>
+                <label class="col-lg-2 control-label"> Image size must be less than 1 MB</label>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                    <button type="button" class="btn btn-primary" id="btnRegister">Register</button>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div id="divFindOpponentPlayer">
+        <fieldset>
+            <legend>Find a player to play against!</legend>
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" id="btnFindOpponentPlayer" value="Find Opponent Player" />
+            </div>
+        </fieldset>
+    </div>
+    <div id="divFindingOpponentPlayer">
+        <fieldset>
+            <legend>Its lonely here!</legend>
+            <div class="form-group">
+                Looking for an opponent player. Waiting for someone to join!
+            </div>
+        </fieldset>
+    </div>
+    <div id="divGameInformation" class="form-group">
+        <div class="form-group" id="divGameInfo"></div>
+        <div class="form-group" id="divInfo"></div>
+    </div>
+    <div id="divGame" style="clear:both">
+        <fieldset>
+            <legend>Game On</legend>
+            <div id="divGameBoard" style="width:380px">
+
+            </div>
+        </fieldset>
+    </div>
+</form>
+<link href="~/css/site.css" rel="stylesheet" />
+<style type="text/css">
+    .notAvailable {
+        background: center;        
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+    }
+</style>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/signalr-clientES5-1.0.0-alpha1-final.js"></script>
+<script src="~/js/signalr-msgpackprotocol-1.0.0-alpha1-final.js"></script>
+<script src="~/js/signalr-client-1.0.0-alpha1-final.js"></script>
+
+<script type="text/javascript">
+    $("#divRegister").show();
+    $("#divFindOpponentPlayer").hide();
+    $("#divFindingOpponentPlayer").hide();
+    $("#divGame").hide();
+    $("#divGameInformation").hide();
+    $("#divPreviewImage").hide();
+    $("#divOpponentPlayer").hide();
+    let hubUrl = '/gameHub';
+    let httpConnection = new signalR.HttpConnection(hubUrl);
+    let hubConnection = new signalR.HubConnection(httpConnection);
+    var playerName = "";
+    var playerImage = "";
+    var opponentImage = "";
+    var hash = "#";
+    hubConnection.start();
+
+    $("#image").change(function () {
+        readURL(this);
+    });
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = imageIsLoaded;
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    function imageIsLoaded(e) {
+        if (e.target.result) {
+            $('#previewImage').attr('src', e.target.result);
+            $("#divPreviewImage").show();
+        }
+    };
+
+    hubConnection.on('registrationComplete', data => {
+        $("#divRegister").hide();
+        $('#divOpponentPlayer').hide();
+        $("#divFindOpponentPlayer").show();
+    });
+
+    hubConnection.on('waitingForOpponent', data => {
+        $('#divInfo').html("<br/><span><strong> Waiting for <i>" + data + "</i> to make a move.</strong></span>");
+    });
+
+    hubConnection.on('opponentFound', (data, image) => {       
+        $('#divFindOpponentPlayer').hide();
+        $('#divFindingOpponentPlayer').hide();
+        $('#divGame').show();
+        $('#divGameInformation').show();
+        $('#divOpponentPlayer').show();
+        opponentImage = image;
+        $('#opponentImage').attr('src', opponentImage);
+        $('#divGameInfo').html("<br/><span><strong> Hey " + playerName + "! You are playing against <i>" + data + "</i></strong></span>");
+        for (var i = 0; i < 9; i++) {
+            $("#divGameBoard").append("<span class='marker' id=" + i + " style='display:block;border:2px solid black;height:100px;width:100px;float:left;margin:10px;'>" + i + "</span>");
+        }
+    });
+
+    hubConnection.on('opponentNotFound', data => {
+        $('#divFindOpponentPlayer').hide();
+        $('#divFindingOpponentPlayer').show();
+    });
+
+    hubConnection.on('opponentDisconnected', data => {
+        $("#divRegister").hide();
+        $('#divGame').hide();
+        $('#divGameInfo').html(" ");
+        $('#divInfo').html("<br/><span><strong>Hey " + playerName + "! Your opponent disconnected or left the battle! You are the winner ! Hip Hip Hurray!!!</strong></span>");
+
+    });
+
+    hubConnection.on('waitingForMove', data => {
+        $('#divInfo').html("<br/><span><strong> Your turn <i>" + playerName + "</i>! Make a winning move!</strong></span>");
+    });
+
+    hubConnection.on('moveMade', data => {      
+        if (data.Image == playerImage) {
+            $("#" + data.ImagePosition).addClass("notAvailable");
+            $("#" + data.ImagePosition).css('background-image', 'url(' + data.Image + ')');         
+            $('#divInfo').html("<br/><strong>Waiting for <i>" + data.OpponentName + "</i> to make a move.</strong>");
+        }
+        else {
+            $("#" + data.ImagePosition).addClass("notAvailable");
+            $("#" + data.ImagePosition).css('background-image', 'url(' + data.Image + ')');
+            $('#divInfo').html("<br/><strong>Waiting for <i>" + data.OpponentName + "</i> to make a move.</strong>");
+        }
+    });
+
+    hubConnection.on('gameOver', data => {
+        $('#divGame').hide();
+        $('#divInfo').html("<br/><span><strong>Hey " + playerName + "! " + data + " </strong></span>");
+        $('#divGameBoard').html(" ");
+        $('#divGameInfo').html(" ");
+        $('#divOpponentPlayer').hide();
+    });
+
+    $("#btnRegister").click(function () {
+        playerName = $('#name').val();
+        playerImage = $('#previewImage').attr('src');
+        var data = playerName.concat(hash, playerImage);
+        hubConnection.invoke('RegisterPlayer', data);
+    });
+
+    $("#btnFindOpponentPlayer").click(function () {
+        hubConnection.invoke('FindOpponent');
+    });
+
+    //// Triggers on clicking the grid cell.
+    $(document).on('click', '.marker', function () {
+        if ($(this).hasClass("notAvailable")) { //// Cell is already taken.
+            return;
+        }
+
+        hubConnection.invoke('MakeAMove', $(this)[0].id); //// Cell is valid, send details to hub.
+    });
+</script>
