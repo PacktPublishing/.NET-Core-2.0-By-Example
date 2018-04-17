@@ -1,0 +1,51 @@
+﻿@page "{id:int}/{seats:int}"
+@model MovieBooking.Pages.BookingSummaryModel
+@{
+    ViewData["Title"] = "Booking Summary";
+    Layout = "~/Pages/_Layout.cshtml";
+}
+
+<h2>Booking Summary</h2>
+<form method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <td width="20%">
+                    <strong> Movie Name</strong>
+                </td>
+                <td width="40%">
+                    <strong>Poster</strong>
+                </td>
+                <td width="20%">
+                    <strong>Show Time</strong>
+                </td>
+                <td width="20%">
+                    <strong>Number of seats</strong>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Model.Movie.Title
+                </td>
+                <td>
+                    <img src="~/@Model.Movie.Poster" alt="@Model.Movie.Title" width="400" height="200" />
+                </td>
+                <td>
+                    @DateTime.Now.ToShortDateString() - @Model.Movie.ShowTime
+                </td>
+                <td>
+                    @Model.NumberOfSeats
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" value="Make Payment" />
+</form>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

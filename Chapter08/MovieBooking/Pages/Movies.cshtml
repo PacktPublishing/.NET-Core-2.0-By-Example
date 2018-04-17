@@ -1,0 +1,67 @@
+﻿@page
+@model MovieBooking.Pages.MoviesModel
+@{
+    ViewData["Title"] = "Now Running";
+    Layout = "~/Pages/_Layout.cshtml";
+   
+}
+
+<h2>Now Showing</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Poster
+            </th>
+            <th>
+                Synopsis
+            </th>
+            <th>
+                Release Date
+            </th>
+            <th>
+                Director
+            </th>
+            <th>
+                Show Time
+            </th>
+            <th>
+                Interested?
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Movies)
+        {
+            <tr>
+                <td width="20%">
+                    <a asp-page="MovieDetail" asp-route-id=@item.Id>@item.Title</a>                    
+                </td>
+                <td>
+                    <img src="~/@item.Poster" alt="Image" height="100" width="100"/>
+                </td>
+                <td width="40%">
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td  width="10%">
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td width="10%">
+                    @Html.DisplayFor(modelItem => item.Director)
+                </td>
+                <td width="10%">
+                    @Html.DisplayFor(modelItem => item.ShowTime)
+                </td>
+                <td>
+                    <a asp-page="BookTicket" asp-route-id=@item.Id >Book</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

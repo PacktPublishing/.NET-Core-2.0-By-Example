@@ -1,0 +1,36 @@
+﻿@page "{id:int?}"
+   
+@model MovieBooking.Pages.BookTicketModel
+
+@{
+    ViewData["Title"] = "Select Show and seats";
+    Layout = "~/Pages/_Layout.cshtml";
+}
+
+<h2>@Model.SelectedMovie.Title</h2>
+<hr/>
+<div class="row">   
+    <form method="post">
+        <!-- Here we have only one show time. If we had multiple show times, we would have created a property named SelectedShowTime and decorated it with BindProperty Attribute and used it in label for. -->
+        <label for="@Model.Timings" id="timeLabel">Show Time:</label>
+        <select class="form-control" id="time" asp-items="@Model.Timings"></select>
+        <br />
+        <label for="@Model.NumberOfSeats">Select number of Seats:</label>
+        <select class="form-control" asp-for="@Model.NumberOfSeats"> <!-- Allowing max 6 seats to be booked at a time.-->
+            <option id="1" value="1">1</option>
+            <option id="2" value="2">2</option>
+            <option id="3" value="3">3</option>
+            <option id="4" value="4">4</option>
+            <option id="5" value="5">5</option>
+            <option id="6" value="6">6</option>
+        </select>
+        <br />
+        <input type="hidden" asp-for="@Model.SelectedMovieId"/> <!-- To Send the Movie Id to the next page.-->
+        <input type="submit" value="Review Order"/>
+    </form>
+
+    @*<a asp-page="BookingSummary" asp-route-id=@Model.> Submit</a>*@
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

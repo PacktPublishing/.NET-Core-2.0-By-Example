@@ -1,0 +1,52 @@
+﻿@page "{id:int}"
+@model MovieBooking.Pages.MovieDetailModel
+@{
+    ViewData["Title"] = "MovieDetail";
+    Layout = "~/Pages/_Layout.cshtml";
+}
+<p>
+    <a asp-page="Movies">Back to Movies</a>
+</p>
+<hr />
+<h2>@Model.Title</h2>
+<hr />
+
+<div class="block">
+    <table class="table">
+        <thead>
+            <tr>
+                <td width="20%">
+                    <strong>Show Time</strong>
+                </td>
+                <td width="60%">
+                    <strong>  Plot</strong>
+                </td>
+                <td width="20%">
+                    <strong>  Watch</strong>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Model.ShowTime
+                </td>
+                <td>
+                    @Model.Description
+                </td>
+                <td>
+                    <a asp-page="BookTicket" asp-route-id=@Model.Id>Book</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="center-block">
+        <div><img src="~/@Model.Poster" alt="@Model.Title" height="700" width="900"></div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

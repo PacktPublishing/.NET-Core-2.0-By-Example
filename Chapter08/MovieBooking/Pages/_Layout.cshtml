@@ -30,18 +30,40 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-page="/Index">Movies</a></li>
-                    <li><a asp-page="/About">Bookings</a></li>
-                    <li><a asp-page="/Contact">Contact</a></li>
+                    <li><a asp-page="/Movies">Now Showing</a></li>
+                    <li><a href="~/Chat.html">Chat with Bot</a></li>
+                    @*<li><a asp-page="/About">Bookings</a></li>
+                    <li><a asp-page="/Contact">Contact</a></li>*@
                 </ul>
             </div>
-        </div>
+           </div>
     </nav>
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; 2018 - Packt Movie Booking- The code is provided as is without warranties and is for educational and learning purpose only.</p>
+        <footer style="font-size:xx-small">
+
+            <p>© 2018 - Packt Movie Booking- The code is provided as is without warranties and is for educational and learning purpose only. To keep things simple and comprehensive, focus is on ASP.NET Core and not on design of movie booking. This is over simplification of single screen cinema hall for easy implementation.So, the app assumes that: </p>
+            <ul>
+                <li>
+                    This is a single screen Cinema hall which shows only one movie at a time.
+                </li>
+                <li>
+                    Booking is done for the current day only (Time check is not in place, but can be easily implemented)
+                </li>
+                <li>
+                    Seat selection would be done by the backend, and not by the user. Only number of seats would be provided by user.
+                </li>
+            </ul>
+            <p>The purpose of this app is to demonstrate the following:</p>
+            <ol>
+                <li>
+                    Getting started with EF Core. How to setup and use EFCore
+                </li>
+                <li>
+                    Introduction to Razor pages, which I feel should enhance the productivity in developing UI.
+                </li>
+            </ol>
         </footer>
     </div>
 
