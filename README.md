@@ -153,3 +153,7 @@ For any issues, questions, suggestions or constructive feedback, please contact 
 * [C# 7 and .NET Core 2.0 High Performance](https://www.packtpub.com/application-development/c-7-and-net-core-20-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781788470049)
 
 * [.NET Standard 2.0 Cookbook](https://www.packtpub.com/application-development/net-standard-20-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788834667)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781788395090">https://packt.link/free-ebook/9781788395090 </a> </p>
